@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style2.css">
+    <title>Training-data</title>
+</head>
+<body>
+    <div class="container">
+        <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+          <table>
+            <tr>             
+              <td class="name"><input type="text" name="name" id="name" placeholder="Disease Name"></td>
+            </tr>
+            <tr>
+              <td class="name"><input type="text" name="email" id="email" placeholder="Age"></td>
+            </tr>
+            
+              <td class="name"><input type="password" name="password" id="password" placeholder="Chest Pain Type"></td>
+            </tr>
+            <tr>
+                <td class="name">
+                    <p>select gender?</p>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="unknown"> Unknown	
+                    </td>
+            </tr>
+              <td class="name"><input type="number" name="phoneNumber" id="phoneNumber" placeholder="Fasting Blood Sugar"></td>
+            </tr>
+            <tr>
+              <td class="name"><input type="number" name="zipcode" id="zipcode" placeholder="Resting Electrographic"></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="name"><input type="submit" class="submit" id="sub" value="ADD" /></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+</body>
+</html>
